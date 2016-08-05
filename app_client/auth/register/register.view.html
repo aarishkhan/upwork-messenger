@@ -1,0 +1,36 @@
+
+
+
+
+<div class="row container valign-wrapper" style="padding-top: 8%;">
+    <form class="col s12  white valign card" style="margin: 0 auto;  padding-bottom: 10px; padding-top: 10px;" ng-submit="vm.onSubmit()">
+
+        <div class="row center-align">
+            <img class="" style=" width: 200px;" src="/images/logo.svg">
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="name" type="text" class="validate" ng-model="vm.credentials.name">
+                <label for="name">Full Name</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="email" type="email" class="validate" ng-model="vm.credentials.email">
+                <label for="email">Email</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="password" type="password" class="validate" ng-model="vm.credentials.password">
+                <label for="password">Password</label>
+            </div>
+        </div>
+
+
+
+        <button type="submit" class="waves-effect waves-light btn col s12">REGISTER</button>
+
+
+    </form>
+</div>
